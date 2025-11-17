@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import s from './style.module.css';
 export function MenuListItem(props) {
     const [isHovered, setHovered] = React.useState(false);
